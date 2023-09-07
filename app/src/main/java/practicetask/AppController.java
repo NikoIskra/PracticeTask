@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
     @GetMapping("/test")
     public ResponseEntity practiceResponse() {
-        return ResponseEntity.ok().build();
+        return new ResponseEntity<>("This is the 1st branch", HttpStatus.OK);
     }
 }
