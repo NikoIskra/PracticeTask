@@ -8,18 +8,6 @@ import javax.annotation.Generated;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-<<<<<<< HEAD:app/src/main/java/practicetask/DefaultApi.java
-=======
-import org.springframework.web.context.request.NativeWebRequest;
-import org.springframework.web.multipart.MultipartFile;
-
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.*;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import jakarta.annotation.Generated;
->>>>>>> d84307e42a89085a03628df4d924a7558748e8a4:app/src/main/java/com/account/controller/HealthcheckApi.java
 
 @Generated(value = "org.openapitools.codegen.languages.SpringCodegen")
 @Validated
